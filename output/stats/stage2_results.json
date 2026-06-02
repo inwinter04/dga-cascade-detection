@@ -1,0 +1,34 @@
+{
+  "overall": {
+    "accuracy": 0.9661,
+    "precision": 0.9407,
+    "recall": 0.8853,
+    "f1": 0.9121,
+    "true_negative_rate": 0.9862,
+    "false_positive_rate": 0.0138,
+    "auc": 0.9882
+  },
+  "feature_importance": {
+    "nxdomain_ratio": 0.5370950169498159,
+    "burstiness": 0.24887294441968608,
+    "mean_ttl": 0.060463242762702964,
+    "query_count": 0.05116436755397765,
+    "ttl_std": 0.04640186603497191,
+    "unique_src_ips": 0.04579048177417656,
+    "qtype_diversity": 0.009092049181965612,
+    "first_seen_delta": 0.0011200313227032873
+  },
+  "feature_names": [
+    "query_count",
+    "unique_src_ips",
+    "nxdomain_ratio",
+    "mean_ttl",
+    "ttl_std",
+    "qtype_diversity",
+    "first_seen_delta",
+    "burstiness"
+  ],
+  "total_samples": 23916,
+  "s1_filtered_count": 30130,
+  "trained_on_s1_filtered": true
+}

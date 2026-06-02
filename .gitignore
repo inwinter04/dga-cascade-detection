@@ -1,0 +1,44 @@
+# Environment
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.toc
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.xdv
+
+# Conference templates (not our IP)
+paper/Templates/
+paper/extraTex/
+paper/main.tex
+
+# Model files (optional - can be regenerated)
+# src/models/*.pkl
+
+# Plots/visualizations from experiments
+# (exclude the top-level figures copy, keep paper/figures/)
+/figures/
+paper/
+experiments/

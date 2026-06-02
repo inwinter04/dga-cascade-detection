@@ -1,0 +1,238 @@
+{
+  "all_14": {
+    "n_features": 14,
+    "threshold": 0.1605,
+    "recall": 0.9475,
+    "tnr": 0.5622,
+    "precision": 0.3158,
+    "f1": 0.4738,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "normalized_entropy",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "subdomain_count",
+      "has_hyphen",
+      "bigram_anomaly",
+      "meaningful_ratio"
+    ]
+  },
+  "top6_sep": {
+    "n_features": 6,
+    "threshold": 0.1695,
+    "recall": 0.9444,
+    "tnr": 0.474,
+    "precision": 0.2769,
+    "f1": 0.4283,
+    "features": [
+      "bigram_anomaly",
+      "max_consonant_run",
+      "domain_length",
+      "sld_length",
+      "vc_alternation",
+      "meaningful_ratio"
+    ]
+  },
+  "top6_coef": {
+    "n_features": 6,
+    "threshold": 0.2262,
+    "recall": 0.9489,
+    "tnr": 0.2104,
+    "precision": 0.204,
+    "f1": 0.3358,
+    "features": [
+      "vowel_ratio",
+      "consonant_ratio",
+      "normalized_entropy",
+      "subdomain_count",
+      "unique_char_ratio",
+      "has_hyphen"
+    ]
+  },
+  "top10_coef": {
+    "n_features": 10,
+    "threshold": 0.1702,
+    "recall": 0.946,
+    "tnr": 0.5278,
+    "precision": 0.2994,
+    "f1": 0.4548,
+    "features": [
+      "vowel_ratio",
+      "consonant_ratio",
+      "normalized_entropy",
+      "subdomain_count",
+      "unique_char_ratio",
+      "has_hyphen",
+      "bigram_anomaly",
+      "vc_alternation",
+      "digit_ratio",
+      "meaningful_ratio"
+    ]
+  },
+  "no_vowel_consonant": {
+    "n_features": 12,
+    "threshold": 0.1593,
+    "recall": 0.9483,
+    "tnr": 0.55,
+    "precision": 0.3101,
+    "f1": 0.4674,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "unique_char_ratio",
+      "normalized_entropy",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "subdomain_count",
+      "has_hyphen",
+      "bigram_anomaly",
+      "meaningful_ratio"
+    ]
+  },
+  "no_weak3": {
+    "n_features": 11,
+    "threshold": 0.1711,
+    "recall": 0.9461,
+    "tnr": 0.5548,
+    "precision": 0.3119,
+    "f1": 0.4692,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "bigram_anomaly",
+      "meaningful_ratio"
+    ]
+  },
+  "no_entropy": {
+    "n_features": 13,
+    "threshold": 0.1598,
+    "recall": 0.9474,
+    "tnr": 0.5616,
+    "precision": 0.3155,
+    "f1": 0.4734,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "subdomain_count",
+      "has_hyphen",
+      "bigram_anomaly",
+      "meaningful_ratio"
+    ]
+  },
+  "only_strong3": {
+    "n_features": 3,
+    "threshold": 0.1781,
+    "recall": 0.9477,
+    "tnr": 0.4843,
+    "precision": 0.2816,
+    "f1": 0.4342,
+    "features": [
+      "bigram_anomaly",
+      "max_consonant_run",
+      "domain_length"
+    ]
+  },
+  "only_strong5": {
+    "n_features": 5,
+    "threshold": 0.1688,
+    "recall": 0.9464,
+    "tnr": 0.469,
+    "precision": 0.2755,
+    "f1": 0.4267,
+    "features": [
+      "bigram_anomaly",
+      "max_consonant_run",
+      "domain_length",
+      "sld_length",
+      "vc_alternation"
+    ]
+  },
+  "no_bigram": {
+    "n_features": 13,
+    "threshold": 0.1588,
+    "recall": 0.955,
+    "tnr": 0.3604,
+    "precision": 0.2416,
+    "f1": 0.3856,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "normalized_entropy",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "subdomain_count",
+      "has_hyphen",
+      "meaningful_ratio"
+    ]
+  },
+  "no_meaningful": {
+    "n_features": 13,
+    "threshold": 0.1606,
+    "recall": 0.9484,
+    "tnr": 0.5603,
+    "precision": 0.3151,
+    "f1": 0.4731,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "normalized_entropy",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation",
+      "subdomain_count",
+      "has_hyphen",
+      "bigram_anomaly"
+    ]
+  },
+  "string_only_v1": {
+    "n_features": 10,
+    "threshold": 0.1859,
+    "recall": 0.9541,
+    "tnr": 0.3129,
+    "precision": 0.2285,
+    "f1": 0.3687,
+    "features": [
+      "domain_length",
+      "sld_length",
+      "digit_ratio",
+      "vowel_ratio",
+      "consonant_ratio",
+      "unique_char_ratio",
+      "normalized_entropy",
+      "max_consonant_run",
+      "max_digit_run",
+      "vc_alternation"
+    ]
+  }
+}

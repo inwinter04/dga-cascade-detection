@@ -1,0 +1,26 @@
+{
+  "recall_ge_90": {
+    "threshold_mean": 0.2988,
+    "threshold_std": 0.0025,
+    "recall_mean": 0.8994,
+    "recall_std": 0.0053,
+    "tnr_mean": 0.7663,
+    "tnr_std": 0.0048
+  },
+  "recall_ge_95": {
+    "threshold_mean": 0.1706,
+    "threshold_std": 0.0035,
+    "recall_mean": 0.9485,
+    "recall_std": 0.0041,
+    "tnr_mean": 0.5837,
+    "tnr_std": 0.0075
+  },
+  "recall_ge_98": {
+    "threshold_mean": 0.0803,
+    "threshold_std": 0.0041,
+    "recall_mean": 0.9781,
+    "recall_std": 0.0027,
+    "tnr_mean": 0.3349,
+    "tnr_std": 0.0176
+  }
+}

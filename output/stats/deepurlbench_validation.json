@@ -1,0 +1,8 @@
+{
+  "source": "DeepURLBench (part-00000)",
+  "sample_size": 20000,
+  "mal_recall": 0.8252,
+  "phishing_recall": 0.6386,
+  "combined_recall": 0.8029,
+  "benign_tnr": 0.1783
+}

@@ -1,0 +1,14 @@
+{
+  "total_records": 61569,
+  "benign_queries": 50000,
+  "dga_queries": 11569,
+  "nxdomain_total": 11288,
+  "nxdomain_dga": 9833,
+  "nxdomain_benign": 1455,
+  "time_start": "2026-06-01 08:00:00.002",
+  "time_end": "2026-06-02 07:59:55.907",
+  "dga_burst_interval_min": 5,
+  "dga_burst_interval_max": 15,
+  "dga_domains_per_burst_range": "50-200",
+  "dga_nx_rate": 0.85
+}

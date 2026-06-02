@@ -1,0 +1,15 @@
+{
+  "total_queries": 1000000,
+  "benign_ratio": 0.95,
+  "dga_ratio": 0.05,
+  "stage1_tnr": 0.5445,
+  "stage1_recall": 0.9501,
+  "stage2_tnr": 0.9701,
+  "stage2_recall": 0.8746,
+  "cascade_recall": 0.831,
+  "cascade_fpr": 0.0136,
+  "benign_to_stage2": 432725,
+  "dga_to_stage2": 47505,
+  "final_fp": 12938,
+  "final_tp": 41548
+}

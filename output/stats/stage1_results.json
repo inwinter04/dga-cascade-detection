@@ -1,0 +1,94 @@
+{
+  "全14维": {
+    "default": {
+      "accuracy": 0.8799,
+      "precision": 0.6188,
+      "recall": 0.8259,
+      "f1": 0.7075,
+      "auc": 0.9246,
+      "false_positive_rate": 0.1086,
+      "true_negative_rate": 0.8914,
+      "threshold": 0.5
+    },
+    "recall95_tuned": {
+      "accuracy": 0.63,
+      "precision": 0.3158,
+      "recall": 0.9475,
+      "f1": 0.4738,
+      "auc": 0.9246,
+      "false_positive_rate": 0.4378,
+      "true_negative_rate": 0.5622,
+      "threshold": 0.1605
+    },
+    "dict_dga": {
+      "accuracy": 0.851,
+      "precision": 1.0,
+      "recall": 0.851,
+      "f1": 0.9195,
+      "auc": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative_rate": 0.0,
+      "threshold": 0.5,
+      "note": "single_class"
+    },
+    "random_dga": {
+      "accuracy": 0.9667,
+      "precision": 1.0,
+      "recall": 0.9667,
+      "f1": 0.9831,
+      "auc": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative_rate": 0.0,
+      "threshold": 0.5,
+      "note": "single_class"
+    },
+    "feature_count": 14,
+    "threshold_tuned": 0.1605
+  },
+  "前6强特征": {
+    "default": {
+      "accuracy": 0.8624,
+      "precision": 0.5813,
+      "recall": 0.7777,
+      "f1": 0.6653,
+      "auc": 0.8997,
+      "false_positive_rate": 0.1195,
+      "true_negative_rate": 0.8805,
+      "threshold": 0.5
+    },
+    "recall95_tuned": {
+      "accuracy": 0.5567,
+      "precision": 0.2769,
+      "recall": 0.9444,
+      "f1": 0.4283,
+      "auc": 0.8997,
+      "false_positive_rate": 0.526,
+      "true_negative_rate": 0.474,
+      "threshold": 0.1695
+    },
+    "dict_dga": {
+      "accuracy": 0.8475,
+      "precision": 1.0,
+      "recall": 0.8475,
+      "f1": 0.9174,
+      "auc": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative_rate": 0.0,
+      "threshold": 0.5,
+      "note": "single_class"
+    },
+    "random_dga": {
+      "accuracy": 0.9637,
+      "precision": 1.0,
+      "recall": 0.9637,
+      "f1": 0.9815,
+      "auc": 0.0,
+      "false_positive_rate": 0.0,
+      "true_negative_rate": 0.0,
+      "threshold": 0.5,
+      "note": "single_class"
+    },
+    "feature_count": 6,
+    "threshold_tuned": 0.1695
+  }
+}
